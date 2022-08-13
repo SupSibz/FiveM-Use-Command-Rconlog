@@ -6,7 +6,6 @@ HOST = "0.0.0.0"
 SERVERPORT = 30120
 RCONPASSWORD = ""
 
-timeset = time.time()
 ip = get('https://api.ipify.org').text
 
 while True:
